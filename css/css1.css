@@ -1,0 +1,16 @@
+#conbox {
+  background-color: lightgray;
+  font-size: 30px;
+}
+#conbox .inner1 {
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  text-align: center;
+}
+#conbox .inner1 .text1 {
+  line-height: 50px;
+  color: darkgreen;
+  font-weight: 900;
+}/*# sourceMappingURL=css1.css.map */
