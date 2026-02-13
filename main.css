@@ -1,26 +1,28 @@
-:root{
-    --bgc-a-box:pink;
-    --bgc-b-box:orange;
-}
+#home {
+    width: 100%; height: 300px;
+    background-color: pink;
+   
+    div {
+        width: 300px; height: 50px;
+        background-color: lightgreen;
+        border: 1px solid #bbb;
+        box-sizing: border-box;
 
-.a {
-    --bgc2-a-box:yellow;
-    width: 300px; height: 200px;
-    background-color: var(--bgc-a-box);
-}
+        &:nth-child(2n)
+        {
+            background-color: orange;
+        }
+        &.a {
+            background-color: lightblue;
+        }
+        
+    }
+     /* > div {
+            width: 300px; height: 100px;
+        + div { 
+            width: 200px; height: 50px;
+            background-color: blue;
+        }
+    } */
 
-.c {
-    width: 200px; height: 100px;
-    background-color: var(--bgc2-a-box);
-}
-
-.b {
-    width: 300px; height: 200px;
-    background-color: var(--bgc-b-box);
-}
-
-.b .d {
-    --bgc-b-box: lightblue;
-    width: 200px; height: 100px;
-    background-color: var(--bgc-b-box);
 }
