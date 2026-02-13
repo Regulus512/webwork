@@ -1,0 +1,8 @@
+// scss/constant/_mixins.scss
+
+// 버튼 스타일을 위한 믹스인
+@mixin button-size($index, $wid: 200px, $hei: 100px) {
+    width: calc($wid + 50px * $index);
+    height: calc($hei + 30px * $index);
+    margin: 10px 0;
+}
