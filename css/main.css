@@ -1,19 +1,22 @@
 .small {
-  background-color: lightpink;
+  background-color: pink;
+  border-radius: 10px;
   width: 250px;
   height: 130px;
   margin: 10px 0;
 }
 
 .middle {
-  background-color: lightgreen;
+  background-color: orange;
+  border-radius: 20px;
   width: 300px;
   height: 160px;
   margin: 10px 0;
 }
 
 .big {
-  background-color: lightblue;
+  background-color: blue;
+  border-radius: 30px;
   width: 350px;
   height: 190px;
   margin: 10px 0;

@@ -1,0 +1,4 @@
+@function get-border-size($index)
+{
+    @return $index * 10px;
+}

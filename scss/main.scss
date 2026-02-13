@@ -1,12 +1,16 @@
 @use 'sass:list';
-@use './constant/variables';
-@use './constant/mixins' as mx;
+@use 'lib' as lib;
+
+$clrs: pink orange blue;
 
 @for $i from 1 through 3{
-    .#{list.nth(variables.$btn-cls, $i)}
+    .#{list.nth(lib.$btn-cls, $i)}
     {
-        background-color: list.nth(variables.$clrs, $i);
-        @include mx.button-size($i);
+        //background-color: list.nth(lib.$clrs, $i);
+        background-color: list.nth($clrs, $i);
+        border-radius: lib.btn-get-border-size($i);
+
+        @include lib.button-size($i);
     }
 }
 
