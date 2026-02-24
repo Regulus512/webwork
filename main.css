@@ -1,14 +1,21 @@
+div.box {
+    width:100px;height:100px;
+    background-color:coral;
+    border: 1px solid #bbb;
+    margin-left:20px;
+}
 .a{
-    display:block;
-    width:200px;height:50px;
-    background-color: pink;
+    width:200px; height:30px;
+    background-color: orange;
+    /* position: relative; top:150px; */
 }
 .b{
-    width:250px; height:100px;
-    background-color:orange;
-}
-.c{
-    width: 300px; height: 150px;
+    width:250px; height:60px;
     background-color:skyblue;
+    /* position: relative; left: 20px; */
 }
-.fl{float:left;}
+.fl {float:left;}
+.rel {
+    position: relative;
+    top: 10px; left: 10px;
+}
