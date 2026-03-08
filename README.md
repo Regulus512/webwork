@@ -1,12 +1,12 @@
 # 2026-03-08
-- web1-03-10: <b>Position (2)</b>
+- web1-03-10: <b>Position (3)</b>
 
-**Position: Absolute (1)**
+**Position: Absolute (2)**
 ```
-구성 방식에 따라 다르게적용됨
+left-right
+top-bottom
 
-안에 구성될 때(부모) -> 다른 position을 찾아감
-바깥에 나란히 -> float처럼 구성됨 (레이어가 띄워진다)
+기본값(1)
 
 ```
 
@@ -14,6 +14,7 @@
 
 chapter|index|title|date
 :--:|:--:|:--:|--:
+"|(12)|Position(3)|"
 "|(11)|Position(2)|"
 "|"|Position(1)|2026-03-08
 "|(10)|Position(1)|2026-02-24

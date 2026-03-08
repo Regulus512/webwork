@@ -15,19 +15,27 @@
     
 }
 .c{
-    width:120px; height: 120px;
-    
+    background-color:pink;
 }
+.d{
+    background-color: skyblue;
+}
+
+.inner{
+    width:100px; height: 100px;
+}
+
+.rel{
+    position: relative;
+}
+
+.abs{
+    position:absolute; bottom: 0; right: 0;
+}
+
 .point{
     width:20px; height:20px; background-color:coral;
     position:absolute;
-    top:0; left:0;
-}
-.rel{
-    position: relative;
-    
+    top:2px; left:2px;
 }
 .fl{float:left;}
-.abs{
-    position:absolute;
-}
