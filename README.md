@@ -1,10 +1,12 @@
-# 2026-02-24
-- web1-03-10: <b>Position (1)</b>
+# 2026-03-08
+- web1-03-10: <b>Position (2)</b>
 
-**Position: Relative (1)**
+**Position: Absolute (1)**
 ```
-static position 로부터 상대적인 위치를 지정한다
-normal flow를 유지한다
+구성 방식에 따라 다르게적용됨
+
+안에 구성될 때(부모) -> 다른 position을 찾아감
+바깥에 나란히 -> float처럼 구성됨 (레이어가 띄워진다)
 
 ```
 
@@ -12,6 +14,7 @@ normal flow를 유지한다
 
 chapter|index|title|date
 :--:|:--:|:--:|--:
+"|(11)|Position(2)|"
 "|"|Position(1)|2026-03-08
 "|(10)|Position(1)|2026-02-24
 1-03|(09)|Float(1,2)|2026-02-21

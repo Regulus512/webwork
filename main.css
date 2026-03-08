@@ -1,14 +1,33 @@
+/* .body{margin:0;} */
+.box{
+    margin: 20px; overflow: hidden;
+    background-color:#ddd;
+    border: 1px dotted #000; box-sizing:border-box;
+}
+
 .a {
     width: 200px;
-    height: 30px;
-    background-color: pink;
+    height: 200px;
+    
 }
 .b{
-    width:250px;height:60px;
-    background-color:orange;
+    width:160px;height:160px;
+    
+}
+.c{
+    width:120px; height: 120px;
+    
+}
+.point{
+    width:20px; height:20px; background-color:coral;
+    position:absolute;
+    top:0; left:0;
 }
 .rel{
     position: relative;
-    top: 10px; left: 10px;
+    
 }
 .fl{float:left;}
+.abs{
+    position:absolute;
+}
