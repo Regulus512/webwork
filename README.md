@@ -1,14 +1,9 @@
 # 2026-03-13
-- web1-03-10: <b>Position (5)</b>
+- web1-03-10: <b>Propagation</b>
 
-**Position: Absolute (5)**
+**Propagation**
 ```
-position: static이 아닌 상위(ancestor) Element를 찾고,
-그 Element를 기준으로 Positioning함
-
-static인 Element가 없을 경우 (a box)
-root Element인 <html> 위의
-ICB(Initial Containing Block) 가상 블록을 기준으로 한다
+배경색 전파 현상
 
 ```
 
@@ -17,7 +12,7 @@ ICB(Initial Containing Block) 가상 블록을 기준으로 한다
 ### 1-03
 index|title|date
 :--:|:--:|--:
-
+(15)|Propagation|"
 (14)|Position(5)|"
 (13)|Position(4)|2026-03-13
 (12)|Position(3)|"

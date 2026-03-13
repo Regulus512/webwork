@@ -1,34 +1,18 @@
-.box{
+html{
+    background-color:pink;
+    border:1px dashed #000;
+}
+body{
+    background-color:orange;
+    border: 1px solid #000;
+    margin: 0;
+}
+div{
     width:100px; height:100px;
+    background-color:transparent;
+    border: 1px solid blue;
 }
-
-.init{
-    position: absolute; right:0px;
+div>div{
+    width:50px;height:50px;
+    background-color: lightblue;
 }
-
-.abs{
-    position:absolute; right: 100px;
-}
-
-.a {
-    background-color:#eee;
-}
-.b{
-    background-color:#ccc;
-}
-.c{
-    background-color:#aaa;
-}
-.d{
-    background-color:#ddd;
-}
-.e{
-    background-color:#bbb;
-    top:-10px;
-}
-.f{
-    background-color:#999;
-}
-
-
-.fl{float:left;}
