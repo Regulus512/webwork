@@ -2,12 +2,12 @@
     width:100px; height:100px;
 }
 
-.rel{
-    position: relative;
+.init{
+    position: absolute; right:0px;
 }
 
 .abs{
-    position:absolute; 
+    position:absolute; right: 100px;
 }
 
 .a {
@@ -15,23 +15,19 @@
 }
 .b{
     background-color:#ccc;
-    top: 0px; left: 100px;
 }
 .c{
     background-color:#aaa;
-    top: 0px; left: 100px;
 }
 .d{
     background-color:#ddd;
-    top: 100px; left: 0px;
 }
 .e{
     background-color:#bbb;
-    top:0px; left: 100px;
+    top:-10px;
 }
 .f{
     background-color:#999;
-    top:100px; left: 200px;
 }
 
 
