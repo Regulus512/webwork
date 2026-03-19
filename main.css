@@ -1,17 +1,14 @@
-div{width: 125px;height:150px;}
+body{
+    height:1000px;
+}
+div{
+    width:400px; height: 70px;
+}
 .a{
-    background-color:pink;
-    position: absolute; top:0;
+    background-color: pink;
 }
 .b{
-    background-color: orange;
-    position: relative; left: 130px;
-}
-.c{
-    background-color: skyblue;
-    position: fixed; top: 8px; right: 8px;
-}
-
-body{
-    position: relative; height: 3000px;
+    background-color:skyblue;
+    position: sticky; top:50px;
+    left: 100px;
 }
