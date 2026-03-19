@@ -2,13 +2,21 @@ body{
     height:1000px;
 }
 div{
-    width:400px; height: 70px;
+    width:400px; height: 20px;
 }
 .a{
     background-color: pink;
 }
 .b{
+    background-color:lightgreen;
+}
+.c{
     background-color:skyblue;
-    position: sticky; top:50px;
-    left: 100px;
+}
+.d{
+    background-color:coral;
+}
+
+.c,.d{
+    position:sticky; top:7px;
 }
