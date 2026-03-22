@@ -3,19 +3,13 @@
 
 **z-index**
 
-Render order가 최상위이다
+floating element에는 z-index가 적용되지 않는 모습
 
-- Render order
+- z-index의 적용조건
     ```
-    1. static-positioned element
-    (normal flow)
-
-    2. floating element
-
-    3. non-static-positioned element
-    (pos:static 외의 전부 - relative, absolute, fixed, sticky)
-    
-    4. z-index
+    [Render Order - 3]
+    non-static-positioned Element
+    (pos:relative, absolute, fixed, sticky)
     ```
 
 # 예제 자료 보관
@@ -23,6 +17,7 @@ Render order가 최상위이다
 ### 1-03
 index|title|date
 :--:|:--:|--:
+(20)|z-index(1)|2026-03-22
 (19)|z-index|2026-03-22
 (18)|Position(8)|2026-03-19
 (17)|Position(7)|2026-03-19

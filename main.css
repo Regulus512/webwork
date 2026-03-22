@@ -1,19 +1,17 @@
 .a{
-    width: 300px; height: 200px;
+    width: 200px; height: 120px;
     background-color: pink;
+    float:left;
+    z-index: 1;
 }
 .b{
     width: 250px; height: 160px;
     background-color:orange;
-    float:left;
+    float: left;
+    z-index: 2;
 }
 .c{
-    width: 200px; height:120px;
+    width: 300px; height:200px;
     background-color:skyblue;
-    position: absolute;
-}
-.d{
-    width: 150px; height: 80px;
-    background-color:coral;
-    position: absolute; z-index: 1;
+    z-index: 3;
 }
