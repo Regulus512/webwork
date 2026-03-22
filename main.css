@@ -1,22 +1,19 @@
-body{
-    height:1000px;
-}
-div{
-    width:400px; height: 20px;
-}
 .a{
+    width: 300px; height: 200px;
     background-color: pink;
 }
 .b{
-    background-color:lightgreen;
+    width: 250px; height: 160px;
+    background-color:orange;
+    float:left;
 }
 .c{
+    width: 200px; height:120px;
     background-color:skyblue;
+    position: absolute;
 }
 .d{
+    width: 150px; height: 80px;
     background-color:coral;
-}
-
-.c,.d{
-    position:sticky; top:7px;
+    position: absolute; z-index: 1;
 }
