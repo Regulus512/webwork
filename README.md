@@ -2,9 +2,21 @@
 - web1-03-10: <b>z-index</b>
 
 **z-index**
-```
 
-```
+Render order가 최상위이다
+
+- Render order
+    ```
+    1. static-positioned element
+    (normal flow)
+
+    2. floating element
+
+    3. non-static-positioned element
+    (pos:static 외의 전부 - relative, absolute, fixed, sticky)
+    
+    4. z-index
+    ```
 
 # 예제 자료 보관
 
