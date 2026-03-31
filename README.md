@@ -1,15 +1,16 @@
-# 2026-03-22
-- web1-03-10: <b>z-index</b>
+# 2026-03-31
+- web1-03-11: <b>z-index</b>
 
 **z-index**
 
-floating element에는 z-index가 적용되지 않는 모습
-
 - z-index의 적용조건
     ```
-    [Render Order - 3]
-    non-static-positioned Element
-    (pos:relative, absolute, fixed, sticky)
+    시작점
+    a-block : 맨 처음 요소, pos: abs로 지정해도 무관
+    b-block : ICB
+    c-block : Viewport
+
+    z-index 지정에 따라 렌더순서를 변경할 수 있다.
     ```
 
 # 예제 자료 보관
@@ -17,6 +18,7 @@ floating element에는 z-index가 적용되지 않는 모습
 ### 1-03
 index|title|date
 :--:|:--:|--:
+(21)|z-index(2)|2026-03-31
 (20)|z-index(1)|2026-03-22
 (19)|z-index|2026-03-22
 (18)|Position(8)|2026-03-19
