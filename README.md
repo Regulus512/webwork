@@ -11,8 +11,6 @@
     a,b,c block을 각각 parent로 감쌀 경우
     z-index가 적용되지 않는 모습
     다른 stacking context에 있기 때문이다
-    
-    html 태그에서 같은 레이어 그룹에 속해야 함!
 
     ```
 
