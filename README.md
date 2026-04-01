@@ -1,17 +1,13 @@
-# 2026-03-31
+# 2026-04-01
 - web1-03-11: <b>z-index</b>
 
 **z-index**
 
 - Stacking context
 
-
     ```
-    
-    a,b,c block을 각각 parent로 감쌀 경우
-    z-index가 적용되지 않는 모습
-    다른 stacking context에 있기 때문이다
-
+    부모 요소에 z-index 속성이 구성되지 않으면 같은 stacking context으로 인식되어
+    a-block이 나중에 렌더링 된다
     ```
 
 # 예제 자료 보관
@@ -19,19 +15,14 @@
 ### 1-03
 index|title|date
 :--:|:--:|--:
-(22)|z-index(3)|2026-03-31
-(21)|z-index(2)|2026-03-31
-(20)|z-index(1)|2026-03-22
-(19)|z-index|2026-03-22
-(18)|Position(8)|2026-03-19
-(17)|Position(7)|2026-03-19
-(16)|Position(6)|"
-(15)|Propagation|"
-(14)|Position(5)|"
-(13)|Position(4)|2026-03-13
-(12)|Position(3)|"
-(11)|Position(2)|"
-"|Position(1)|2026-03-08
+(18)|z-index(4)|2026-04-01
+(17)|z-index(2,3)|2026-03-31
+(16)|z-index(1)|2026-03-22
+(15)|z-index|2026-03-22
+(14)|Position(7,8)|2026-03-19
+(13)|Propagation|"
+(12)|Position(4,5,6)|2026-03-13
+(11)|Position(1,2,3)|2026-03-08
 (10)|Position(1)|2026-02-24
 (09)|Float(1,2)|2026-02-21
 (08)|vanilla css(1,2)|"
