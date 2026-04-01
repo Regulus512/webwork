@@ -3,14 +3,17 @@
 
 **z-index**
 
-- z-index의 적용조건
-    ```
-    시작점
-    a-block : 맨 처음 요소, pos: abs로 지정해도 무관
-    b-block : ICB
-    c-block : Viewport
+- Stacking context
 
-    z-index 지정에 따라 렌더순서를 변경할 수 있다.
+
+    ```
+    
+    a,b,c block을 각각 parent로 감쌀 경우
+    z-index가 적용되지 않는 모습
+    다른 stacking context에 있기 때문이다
+    
+    html 태그에서 같은 레이어 그룹에 속해야 함!
+
     ```
 
 # 예제 자료 보관
@@ -18,6 +21,7 @@
 ### 1-03
 index|title|date
 :--:|:--:|--:
+(22)|z-index(3)|2026-03-31
 (21)|z-index(2)|2026-03-31
 (20)|z-index(1)|2026-03-22
 (19)|z-index|2026-03-22
