@@ -1,29 +1,23 @@
-* {
+*, *::before, *::after {
     box-sizing: border-box;
-    margin:0;
 }
-div{
-    width:200px; height:200px;
-    float: left;
-    
-}
+
 .a {
+    width: 350px; height: 125px;
     background-color:pink;
 }
-.b {
-    background-color:orange;
+.a::before {
+    content: 'before';
+    display:inline-block;
+    width: 125px; height: 125px;
+    background-color: orange;
     padding: 10px;
+    border: 10px solid #000;
 }
-.c {
-    background-color:skyblue;
-    padding: 10px;
-    border: 10px solid deepskyblue;
+.a::after {
+    content: 'after';
+    display: inline-block;
+    width: 125px; height: 125px;
+    background-color: skyblue;
+    padding: 30px;
 }
-.d {
-    background-color:coral;
-    padding: 10px; margin: 20px;
-    border: 10px solid darkred;
-    position: sticky; left: 10px; top: 10px;
-    z-index: 1;
-}
-body{width:4000px; height:2000px;}

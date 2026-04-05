@@ -1,23 +1,17 @@
 # 2026-04-05
 - web1-03-12: <b>box-sizing</b>
 
-**margin + position은 어떻게 적용되나?**
+**none**
 
-- margin test
+- pseudo-element
 
     ```
-    position으로 위치를 잡은 다음,
-    margin이 적용된 위치에 box가 렌더링된다
-    최종 렌더링되는 위치 = position + margin
-
-    position: sticky의 경우
-    평소에는 margin이 적용되다가
-    지정한 값 이하로 요소가 스크롤되었을 때 canvas에 붙어서 지정했던
-    "left, right 만큼만 띄우게된다"
-    
-    최종 렌더링되는 위치 = position을 우선으로 함
-    DevTools의 margin 주황색 영역으로 확인 가능
-    left or top-margin이 줄어들 수도 있다 (주황색 영역이 감소)
+    pseudo-element + inline element
+    ???
+    왜 padding : 20px이어야 박스가 딱 맞게 렌더링될까?
+    => 글자 줄맞춤에 맞춰서 조정되는 뭔가가 있나보다.
+    더크게하면 앞의 인라인 요소들도 영향을 받아 텍스트에 맞춰서 박스 렌더링이 딱 맞지 않게된다
+    이건 pseudo-element 복습이랑 같이 다음에 알아보자!
     ```
 
 # 예제 자료 보관
@@ -25,7 +19,8 @@
 ### 1-03
 index|title|sub-title|date|
 :--:|:--:|:--:|:--
-(12)|box-sizing|<span style="color:skyblue">margin+position</span>|2026-04-05
+(12)|box-sizing 2 |pseudo-element|2026-04-05
+(12)|box-sizing 1 |<span style="color:skyblue">margin+position</span>|2026-04-05
 (11)|z-index(4)||2026-04-01
 (11)|z-index(2,3)||2026-03-31
 (11)|z-index(1)||2026-03-22
