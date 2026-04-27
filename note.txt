@@ -1,12 +1,23 @@
 질문 백업,
 질문 복기할 용도의 메모장
 
-margin+position:rel
+▶ 챗봇 질문
+margin, padding은 일반적으로 block element에 적용되는 특징으로 이해하고 있는데,
+inline element에는 padding은 모든 방향에 적용되고 margin은 left/right만 일부 적용되는데
+이런 방식으로 적용되도록 설계한 이유가 무엇일까?
+padding이야 편의성을 위해 적용되도록 한 것 같아, 그런데 margin은 왜 좌우로는 적용되지만 상하로는 왜 제한을 둘까? 라는 의문이 드네
+normal flow와 섞어 설명할 수 있으면 그렇게 설명해줘
+
+
+
+
+▶ margin+position:rel 상황
 margin이 마지막에 표시되는가?
 fixed, abs, rel 다 써보기
+해결:
+(12) box-sizing + margin + position 2026-04-05
 
 
-rel 이 왜 두개연속으로 안먹지 ?? -> 바보;
 
 
 다음에 연습해볼것
