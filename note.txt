@@ -8,6 +8,7 @@ inline element에는 padding은 모든 방향에 적용되고 margin은 left/rig
 padding이야 편의성을 위해 적용되도록 한 것 같아, 그런데 margin은 왜 좌우로는 적용되지만 상하로는 왜 제한을 둘까? 라는 의문이 드네
 normal flow와 섞어 설명할 수 있으면 그렇게 설명해줘
 
+그러면 margin과 padding은 block element를 위해 설계되었다라고 하면 틀린거고, 어떤 요소든지(inline, block) 요소에 여백을 주기위한 속성이라고 받아들이는게 맞을까?
 
 
 

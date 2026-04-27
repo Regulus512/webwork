@@ -1,14 +1,19 @@
-.a, .b{
-    width: 180px; height: 50px;
+.a {
+    width: 150px; height: 50px;
+    background-color: pink;
     display:inline-block;
 }
-
-.a {
+.b{
+    display:inline;
     background-color: orange;
 }
-.b{
-    background-color: lightgreen;
+.m{
+    margin: 20px;
 }
-.up{
-    font-size: 0;
+.p{
+    padding: 10px;
+}
+span{
+    width: 150px; height: 50px;
+    background-color: lightgreen;
 }
