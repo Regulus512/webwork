@@ -1,23 +1,14 @@
-*, *::before, *::after {
-    box-sizing: border-box;
+.a, .b{
+    width: 180px; height: 50px;
+    display:inline-block;
 }
 
 .a {
-    width: 350px; height: 125px;
-    background-color:pink;
-}
-.a::before {
-    content: 'before';
-    display:inline-block;
-    width: 125px; height: 125px;
     background-color: orange;
-    padding: 10px;
-    border: 10px solid #000;
 }
-.a::after {
-    content: 'after';
-    display: inline-block;
-    width: 125px; height: 125px;
-    background-color: skyblue;
-    padding: 30px;
+.b{
+    background-color: lightgreen;
+}
+.up{
+    font-size: 0;
 }
