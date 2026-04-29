@@ -1,19 +1,29 @@
-.a {
-    width: 150px; height: 50px;
-    background-color: pink;
-    display:inline-block;
-}
-.b{
-    display:inline;
-    background-color: orange;
-}
-.m{
-    margin: 20px;
-}
-.p{
+.p {
     padding: 10px;
 }
-span{
-    width: 150px; height: 50px;
-    background-color: lightgreen;
+
+.m {
+    margin: 10px;
+}
+
+.a {
+    display: block;
+    width: 150px;
+    height: 80px;
+    background-color: rgb(240, 247, 225);
+}
+
+.b {
+    display: inline-block;
+    width: 180px;
+    height: 80px;
+    background-color: rgb(228, 245, 192);
+}
+
+.c {
+    display: inline;
+    width: 150px;
+    height: 80px;
+    padding: 50px 20px;
+    background-color: rgba(175, 240, 35, 0.822);
 }

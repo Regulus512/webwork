@@ -1,7 +1,13 @@
 질문 백업,
 질문 복기할 용도의 메모장
 
-▶ 챗봇 질문
+다음에 연습해볼것
+▶ position
+
+▶ scss
+
+
+▶ 2026-04-29
 margin, padding은 일반적으로 block element에 적용되는 특징으로 이해하고 있는데,
 inline element에는 padding은 모든 방향에 적용되고 margin은 left/right만 일부 적용되는데
 이런 방식으로 적용되도록 설계한 이유가 무엇일까?
@@ -10,29 +16,5 @@ normal flow와 섞어 설명할 수 있으면 그렇게 설명해줘
 
 그러면 margin과 padding은 block element를 위해 설계되었다라고 하면 틀린거고, 어떤 요소든지(inline, block) 요소에 여백을 주기위한 속성이라고 받아들이는게 맞을까?
 
+그렇다면 inline-block에서는 margin을 적용하는 경우 앞뒤의 inline요소들과 같은 줄로 만들기위해 줄 높이를 변경해버리는데, inline과는 규칙을 다르게 하는 이유는 무엇일까?
 
-
-▶ margin+position:rel 상황
-margin이 마지막에 표시되는가?
-fixed, abs, rel 다 써보기
-해결:
-(12) box-sizing + margin + position 2026-04-05
-
-
-
-
-다음에 연습해볼것
-
-
-▶ scss
-자료한번켜서 읽어보고, 필요하다싶으면 예제쳐보고, 궁금한거 생기면 코드 더 추가해서 실행시켜보고 그럴목적 -> 써야하니깐...
-
-▶ z-index
-가 왜 위로 나오지?하는 상황 나옴
-stacking context가 예제 외의 상황에서 어떤 방식으로 작동하는지?
-
-▶Pseudo-element (103-12 7p)
-HTML상에서 존재하는 엘리먼트가 아니다 이게 무슨말일까
-tag로존재하지않는다?뭐다? 자료다시보고와야할듯
-element가 아닌데 element처럼 작동하는 것?
-→Pseudo element 뒤에 따라오는 inline element"none"도 같이 바꿔버림 (padding 같이 적용됨, border에 따른 content위치가 조정됨)

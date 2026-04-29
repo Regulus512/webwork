@@ -1,16 +1,29 @@
-# 2026-04-27
+# 2026-04-29
 - web1-03-13: <b>display</b>
 
-**display**
+**test.css추가**
 
-- display + padding, margin property
+추후 test 규칙 메모를 추가하기
+
+
+**Inline Margin**
+
+- display:inline, inlie-block + padding/margin test
 
     ```
-    padding : block, inline, inline-block
-    margin : block, inline-block(left/right)
+    inline에서 padding/margin이 한정적으로 적용되는 이유가 무엇일까?
+    inline-block은 어떤 차이가 있을까?
+
+    관련 : Normal flow - Inline Formatting Context
+    
     ```
 
 # 예제 자료 보관
+
+### TEST
+index | title | date |
+:--:|:--:|:--|
+**[01]**|Inline Margin|2026-04-29
 
 ### 1-03
 index | title | sub-title | date |
