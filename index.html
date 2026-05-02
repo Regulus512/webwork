@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>13. display</title>
+    <title>10. Position</title>
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="./test/test.css">
 
@@ -13,60 +13,38 @@
 
 <body>
     <p>
-        관련 : Normal flow - Inline Formatting Context
+        관련 : Normal Flow의 유지
         </br></br>
-        <span class="question">padding과 margin은 block 요소만을 위한 프로퍼티?</span>
-        </br>
 
-        ❌
-        → 모든 box(담기위한)요소에 대해 상하좌우 여백을 둠으로써, 내용을 보기 편하게 한다
-        </br></br>
-        <span class="question"> 그렇다면 모든 display(block, inline, inline-block) 요소에 대해 똑같이 적용되나? </span>
+        <span class="question">레이아웃 배치 시 Position:Relative & Absolute의 사용 이유?</span>
         </br>
-        ❌
-        → inline-block
+        →
+    <ol>
+        <li>relative: 정상문서 흐름에서 <u>그 흐름을 유지한채로</u> 이동시키고싶다</li>
+        <li>absolute: <b>정상 문서 흐름에서 제외되고</b> 요소를 원하는 곳에 배치시키고싶다, 겹치는 것도 가능</li>
+    </ol>
+    </br></br>
+    정상 문서 흐름에서 제외 → 정상 문서 흐름의 계산에서 빠지고 좌표(top, right)로 배치된다
+
     </p>
 
-    <h3>Margin+Padding</h3>
+    <h3>Position</h3>
     <div class="tb">
-        before <div class="a p m">Block Element</div> after
+        Position: relative
+        <div class="box a">Relative</div>
+        in normal flow(inline)
     </div>
     <div class="tb">
-        before <div class="b p m">inline-block Element</div> after Lorem ipsum dolor sit amet consectetur adipisicing
-        elit.
-        Quisquam hic impedit dolorem quo enim rerum magni, dolor nesciunt odit eveniet assumenda tenetur magnam
-        quibusdam
-        dolore tempore, deleniti nihil facilis error.
-    </div>
-    <div class="tb">
-        before <div class="c p m">inline Element</div> after <br> next line !!
-        상하방향의 padding 줄 높이는 그대로, 다른 줄을 침범한다
-        <span style="color:white;font-weight:bold">이렇게</span><br>
-        좌우방향의 margin, padding은 정상 적용된다
+        Position: absolute
+        <div class="box b">Absolute</div>
+        in normal flow(inline)
     </div>
     next to test box(vertical-align:bottom)
 
 
     <h3>결론</h3>
     <p>
-        <b>inline</b>: normal flow 규칙 - <u>좌에서 우로 흐르는 요소, 글자</u></br>
-        글자하나하나를 엘리먼트로 보고 그것을 좌우로 이어놓은것, 화면 상에 표시되는 <b>한 줄(line)</b>을 가진다</br>
-        렌더링되는 너비 = 레이아웃 너비이다 (다음 요소가 바로 오른쪽으로 이어진다)</br>
-
-        같은 높이에 <u>한 줄을 유지하는 것이 중요</u>하다 (글자가 상하로 마구배치되면 가독성이 아주 떨어지게 될 것)</br>
-        그렇기 때문에 상하마진(margin-top/bottom)속성은 적용되지 않는다</br>
-        margin-left/right의 경우?</br>
-        문서를 쓸 때 띄어쓰기(sp,\t등..)를 허용하기 때문에 좌우 마진은 적용되도록 되어있다.</br>
-        글자하나하나를 element라고 가정한다면 잘 들어맞는다</br>
-    </p>
-    <p>
-        <b>inline-block</b>:
-        outer - inline,
-        inner - block인 display 속성</br>
-        밖으로 inline이기 때문에 <u>한 줄을 유지한다</u>는 성격을 유지하기위해</br>
-        <span style="background-color:  rgb(228, 245, 192);">2번째의 inline-block Element</span>를 보면 앞뒤의 글자 element들도</br>
-        inline-block의 height+상하padding+상하margin만큼 줄높이(line-height)가 지정된다</br>
-        inline과는 달리, 레이아웃의 자유도를 준 모습을 볼 수 있다~
+        <b>asdf</b>: <u>Lorem ipsum</u> dolor sit amet, </br>
     </p>
 </body>
 

@@ -1,29 +1,24 @@
-.p {
-    padding: 10px;
-}
-
-.m {
-    margin: 10px;
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    border: 1px solid #bbb;
+    text-align: center;
+    display: inline-block;
 }
 
 .a {
-    display: block;
-    width: 150px;
-    height: 80px;
-    background-color: rgb(240, 247, 225);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.tb {
+    position:relative;
 }
 
 .b {
-    display: inline-block;
-    width: 180px;
-    height: 80px;
-    background-color: rgb(228, 245, 192);
-}
-
-.c {
-    display: inline;
-    width: 150px;
-    height: 80px;
-    padding: 50px 20px;
-    background-color: rgba(175, 240, 35, 0.822);
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }

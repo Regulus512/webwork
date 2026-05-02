@@ -17,7 +17,7 @@ h3 {
 
 .tb {
     /*test box 좌우로 나열해서 비교를 편하게 하기위함*/
-    display: inline-block;
+    display: inline-block; margin-left:10px; margin-right:10px;
     width: 400px;
     min-height: 280px;
     vertical-align: bottom;

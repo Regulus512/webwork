@@ -1,20 +1,17 @@
-# 2026-04-29
-- web1-03-13: <b>display</b>
+# 2026-05-02
+- web1-03-10: <b>position</b>
 
-**test.css추가**
+**test.md**
+추가
 
-추후 test 규칙 메모를 추가하기
+**Relative&Absolute**
 
-
-**Inline Margin**
-
-- display:inline, inlie-block + padding/margin test
+- position(re)
 
     ```
-    inline에서 padding/margin이 한정적으로 적용되는 이유가 무엇일까?
-    inline-block은 어떤 차이가 있을까?
+    relative: normal flow 기존 레이아웃 유지
 
-    관련 : Normal flow - Inline Formatting Context
+    absolute: normal flow 레이아웃 계산=0
     
     ```
 
@@ -24,6 +21,8 @@
 index | title | date |
 :--:|:--:|:--|
 **[01]**|Inline Margin|2026-04-29
+**[02]**|Relative&Absolute 01|2026-05-02
+
 
 ### 1-03
 index | title | sub-title | date |
